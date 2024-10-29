@@ -1,0 +1,88 @@
+﻿@page
+@model BuySmart_Admin.Pages.Security.LoginModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = "_LayoutLogin";
+}
+
+<img class="login-logo login-6" src="~/img/logo_azul.png" />
+<div class="login-content">
+    <h1>BuySmart Admin</h1>
+     <div class="login-form">
+        <h3>Login</h3>
+        <p> <b>BuySmart</b>, el futuro de los bienesreices, tienes todo en un único lugar. </p>
+
+        <div class="alert alert-danger display-hide">
+            <button class="close" data-close="alert"></button>
+            <span>Ingrese su nombre de usuario y contraseña. </span>
+        </div>
+        <div class="row">
+            <div class="col-xs-6">
+                <input class="form-control form-control-solid placeholder-no-fix form-group" type="text" autocomplete="off" placeholder="Nombre de usuario" name="username" required />
+            </div>
+            <div class="col-xs-6">
+                <input class="form-control form-control-solid placeholder-no-fix form-group" type="password" autocomplete="off" placeholder="Contraseña" name="password" required />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <label class="rememberme mt-checkbox mt-checkbox-outline">
+                    <input type="checkbox" name="remember" value="1" /> Acuérdate de mí
+                    <span></span>
+                </label>
+            </div>
+            <div class="col-sm-8 text-right">
+                <div class="forgot-password">
+                    <a href="javascript:;" id="forget-password" class="forget-password">
+                        Has olvidado tu contraseña?
+                    </a>
+                </div>
+                <a class="btn blue" asp-area="" asp-page="/Index"> Iniciar sesión</a>
+             @*    <button class="btn blue" type="submit">
+                    Iniciar sesión
+                </button> *@
+            </div>
+        </div>
+    </div>
+    <!-- BEGIN FORGOT PASSWORD FORM -->
+    <div class="forget-form">
+        <h3>Has olvidado tu contraseña ?</h3>
+        <p> Ingrese su dirección de correo electrónico a continuación para restablecer su contraseña. </p>
+        <div class="form-group">
+            <input class="form-control placeholder-no-fix" type="text" autocomplete="off" placeholder="Email" name="email" />
+        </div>
+        <div class="form-actions">
+            <button type="button" id="back-btn" class="btn blue btn-outline">Atrás</button>
+            <button type="submit" class="btn blue uppercase pull-right">Guardar</button>
+        </div>
+    </div>
+    <!-- END FORGOT PASSWORD FORM -->
+</div>
+<div class="login-footer">
+    <div class="row bs-reset">
+        <div class="col-xs-5 bs-reset">
+            <ul class="login-social">
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-social-facebook"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-social-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-social-dribbble"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-xs-7 bs-reset">
+            <div class="login-copyright text-right">
+                <p>Copyright &copy; BuySmart 2024</p>
+            </div>
+        </div>
+    </div>
+</div>

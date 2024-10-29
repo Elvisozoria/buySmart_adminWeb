@@ -1,0 +1,7 @@
+D:\Desarrollo\BuySmart_Admin\obj\Release\net6.0\PubTmp\Out\BuySmart_Admin.exe
+D:\Desarrollo\BuySmart_Admin\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+D:\Desarrollo\BuySmart_Admin\obj\Release\net6.0\PubTmp\Out\appsettings.json
+D:\Desarrollo\BuySmart_Admin\obj\Release\net6.0\PubTmp\Out\BuySmart_Admin.dll
+D:\Desarrollo\BuySmart_Admin\obj\Release\net6.0\PubTmp\Out\BuySmart_Admin.deps.json
+D:\Desarrollo\BuySmart_Admin\obj\Release\net6.0\PubTmp\Out\BuySmart_Admin.runtimeconfig.json
+D:\Desarrollo\BuySmart_Admin\obj\Release\net6.0\PubTmp\Out\BuySmart_Admin.pdb
